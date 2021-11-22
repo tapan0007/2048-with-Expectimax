@@ -1,6 +1,5 @@
 Implement Expectimax to Play 2048
 =========
-[DO NOT FORK THIS REPO]
 ----
 Implement a game AI for the 2048 game based on expectimax search. The base game engine uses code from [here](https://gist.github.com/lewisjdeane/752eeba4635b479f8bb2). 
 
