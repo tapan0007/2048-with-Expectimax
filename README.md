@@ -44,18 +44,3 @@ Once your program is running, here are a few keyboard options available in-game:
 - 'g': toggle grayscale
 - 'e': switch to extra credit
 
-NOTE: For grading, we will run tests in the same way on other test states and see if your depth-3 tree and experimax values are computed correctly. 
-
-Design Evaluation Functions
-------
-While depth-3 search gives okay performance, it can apparently be improved by searching more depth or improving the evaluation function, or both. For improving the evaluation function, you can implement a heuristic value that takes into account of the difference between a "good" and "bad" game state. You can feel free to use online resources to see what strategies people have been using to reach higher scores in 2048. 
-
-You can implement a stronger AI in the `compute_decision_ec` function at the bottom of the `ai.py` file. When running the game, pressing `e` will activate/deactivate the decisions made by the `compute_decision_ec` function. 
-
-To test this part of the implementation, run:
-
-```
-    python main.py -t 2
-```
-
-NOTE: In order to get the extra credits, you will need to achieve a score of more than 20,000 on at least 4/10 runs. The tester will show whether you have succeeded. 
